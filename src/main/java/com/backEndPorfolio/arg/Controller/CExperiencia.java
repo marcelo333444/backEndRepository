@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.backEndPorfolio.arg.Controller;
 
 import com.backEndPorfolio.arg.Dto.dtoExperiencia;
@@ -26,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = "https://portafolio-arg-prog.netlify.app")
+@CrossOrigin(origins = "https://forntendportfolio.web.app")
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;

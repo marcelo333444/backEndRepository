@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/persona")
-@CrossOrigin(origins = "https://portafolio-arg-prog.netlify.app")
+@CrossOrigin(origins = "https://forntendportfolio.web.app")
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;

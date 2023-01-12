@@ -5,10 +5,7 @@
  */
 package com.backEndPorfolio.arg.Security.Controller;
 
-/**
- *
- * @author Usuario
- */
+
 public class Mensaje {
     private String mensaje;
     

@@ -32,7 +32,7 @@ public class backApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("https://portafolio-arg-prog.netlify.app").allowedMethods("*").allowedHeaders("*");
+                registry.addMapping("/**").allowedOrigins("https://forntendportfolio.web.app").allowedMethods("*").allowedHeaders("*");
             }
         };
     }
