@@ -32,7 +32,7 @@ public class backApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("https://forntendportfolio.firebaseapp.com/").allowedMethods("*").allowedHeaders("*");
+                registry.addMapping("/**").allowedOrigins("https://forntendportfolio.firebaseapp.com").allowedMethods("*").allowedHeaders("*");
             }
         };
     }
